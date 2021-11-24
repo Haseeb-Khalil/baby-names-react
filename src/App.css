@@ -1,0 +1,29 @@
+h1 {
+  text-align: center;
+}
+.blue {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.7rem;
+  max-width: fit-content;
+  background-color: lightblue;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+.pink {
+  padding: 1rem;
+  font-size: 1.2rem;
+  border-radius: 0.7rem;
+  max-width: fit-content;
+  background-color: lightpink;
+  box-shadow: 0px 3px 5px rgba(0, 0, 0, 0.5);
+}
+ul {
+  padding-left: 0%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 0.7rem;
+  border: 2px solid red;
+  margin: 1.5rem;
+  padding: 1rem;
+}
