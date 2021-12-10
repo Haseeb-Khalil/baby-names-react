@@ -3,14 +3,15 @@ import React from "react";
 const Baby = (props) => {
   const { name, sex } = props.data;
   return (
-    <div>
+    <li>
       {sex === "f" ? (
         <p className="pink">{name}</p>
       ) : (
         <p className="blue">{name}</p>
       )}
-    </div>
+    </li>
   );
 };
 
 export default Baby;
+  
